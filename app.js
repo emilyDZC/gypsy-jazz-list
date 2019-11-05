@@ -132,7 +132,7 @@ if (songTitle === '' || key === '') {
 });
 
 document.getElementById('song-list').addEventListener('click', (e) => {
- 
+console.log('working...')
  // Remove book from UI
   UI.deleteSong(e.target);
 
